@@ -4,7 +4,7 @@ export default contexts =>
   function ContextProvider(props) {
     return Object.values(contexts).reduce(
       (accumulator, context) => (
-        <context.Provider>{accumulator}</context.Provider>
+        <context.ProviderComponent>{accumulator}</context.ProviderComponent>
       ),
       props.children,
     );
