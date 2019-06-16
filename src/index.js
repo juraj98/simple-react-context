@@ -1,5 +1,5 @@
-import createContext from './createContext.jsx';
-import getContextProvider from './ContextProvider.jsx';
+import createContext from './createContext';
+import getContextProvider from './ContextProvider';
 
 export { getContextProvider };
 export default createContext;
