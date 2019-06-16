@@ -1,6 +1,6 @@
 {
-  "name": "styled-media-query-helper",
-  "version": "1.0.0",
+  "name": "simple-context",
+  "version": "0.0.1",
   "description": "",
   "main": "build/index.js",
   "scripts": {
