@@ -1,0 +1,45 @@
+{
+  "name": "styled-media-query-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "prepack": "yarn build",
+    "start": "webpack --env.production=false --watch",
+    "build": "webpack --env.production=true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "context"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juraj98/simple-context.git"
+  },
+  "author": "Juraj Garaj <juraj982@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juraj98/simple-context/issues"
+  },
+  "homepage": "https://github.com/juraj98/simple-context#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "react": "^16.8.6",
+    "webpack-cli": "^3.3.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0"
+  }
+}
